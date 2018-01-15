@@ -16,7 +16,7 @@ public class CommunicationException extends AppException {
 	}
 
 	public CommunicationException(String message) {
-		super(message);//asd
+		super(message);
 	}
 
 }
