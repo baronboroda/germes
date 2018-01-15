@@ -8,4 +8,30 @@
     <version>0.0.5</version>
   </parent>
   <artifactId>germes-service</artifactId>
+  
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>org.glassfish.jersey</groupId>
+  			<artifactId>jersey-bom</artifactId>
+  			<version>${jersey.version}</version>
+  			<type>pom</type>
+  			<scope>import</scope>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.it-simulator</groupId>
+  		<artifactId>germes-model</artifactId>
+  		<version>0.0.5</version>
+  	</dependency>
+  	
+  	<dependency>
+  		<groupId>org.glassfish.jersey.containers</groupId>
+  		<artifactId>jersey-container-grizzly2-http</artifactId>
+  	</dependency>
+  </dependencies>
+  
 </project>
