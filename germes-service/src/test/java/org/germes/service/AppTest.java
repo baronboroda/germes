@@ -1,4 +1,4 @@
-package germes_service.germes_service;
+package org.germes.service;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

@@ -1,4 +1,4 @@
-package germes_service.germes_service;
+package org.germes.service;
 
 /**
  * Hello world!
