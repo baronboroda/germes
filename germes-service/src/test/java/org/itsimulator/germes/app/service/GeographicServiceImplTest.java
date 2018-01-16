@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
  *
  */
 public class GeographicServiceImplTest {
-	private GeographicService service;
+	private GeographicService service;//
 	
 	@Before
 	public void setup() {
