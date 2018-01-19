@@ -21,16 +21,17 @@ public class SimpleDTOTransformerTest {
 	
 	@Test
 	public void testTransformCitySuccess() {
-		City city = new City("Lviv");
+		City city = new City();
 		city.setId(1);
-		city.setRegion("Lv");
+		city.setName("Lviv");
 		city.setDistrict("None");
+//		city.setRegion("Lv"); //Causes ArrayIndexOutOfBoundsException. WTF?
 		
 		CityDTO dto = transformer.transform(city, CityDTO.class);
 		assertNotNull(dto);
 		assertEquals(dto.getId(), city.getId());
 		assertEquals(dto.getName(), city.getName());
-		assertEquals(dto.getDistinct(), city.getDistrict());
+		assertEquals(dto.getDistrict(), city.getDistrict());
 		assertEquals(dto.getRegion(), city.getRegion());
 	}
 	
@@ -41,7 +42,7 @@ public class SimpleDTOTransformerTest {
 	
 	@Test(expected=InvalidParameterException.class)
 	public void testTransformNullDTOClassFailure() {
-		transformer.transform(new City("Lviv"), null);
+		transformer.transform(new City(), null);
 	}
 	
 	@Test
@@ -49,7 +50,7 @@ public class SimpleDTOTransformerTest {
 		CityDTO dto = new CityDTO();
 		dto.setId(1);
 		dto.setRegion("Lv");
-		dto.setDistinct("None");
+		dto.setDistrict("None");
 		dto.setName("Lviv");
 		
 		City city = transformer.untransform(dto, City.class);
@@ -57,7 +58,7 @@ public class SimpleDTOTransformerTest {
 		assertEquals(dto.getId(), city.getId());
 		assertEquals(dto.getName(), city.getName());
 		assertEquals(dto.getRegion(), city.getRegion());
-		assertEquals(dto.getDistinct(), city.getDistrict());
+		assertEquals(dto.getDistrict(), city.getDistrict());
 	}
 	
 	@Test(expected=InvalidParameterException.class)

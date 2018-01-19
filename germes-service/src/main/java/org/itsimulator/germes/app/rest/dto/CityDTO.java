@@ -7,7 +7,7 @@ public class CityDTO extends BaseDTO<City> {
 
 	private String name;
 	
-	private String distinct;
+	private String district;
 	
 	private String region;
 	
@@ -19,12 +19,12 @@ public class CityDTO extends BaseDTO<City> {
 		this.name = name;
 	}
 	
-	public String getDistinct() {
-		return distinct;
+	public String getDistrict() {
+		return district;
 	}
 	
-	public void setDistinct(String distinct) {
-		this.distinct = distinct;
+	public void setDistrict(String district) {
+		this.district = district;
 	}
 	
 	public String getRegion() {

@@ -17,7 +17,7 @@ public class CityTest {
 	
 	@Before
 	public void setup() {
-		city = new City("Odessa");
+		city = new City("Odesa");
 	}
 	
 	@Test

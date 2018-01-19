@@ -30,11 +30,11 @@ public class GeographicServiceImplTest {
 	
 	@Test
 	public void testSaveNewCitySuccess() {
-		City city = new City("Odessa");
+		City city = new City("Odesa");
 		service.saveCity(city);
 		
 		List<City> cities = service.findCities();
 		assertEquals(cities.size(), 1);
-		assertEquals(cities.get(0).getName(), "Odessa");
+		assertEquals(cities.get(0).getName(), "Odesa");
 	}
 }

@@ -43,6 +43,13 @@ public class SimpleDTOTransformer implements Transformer {
 		ReflectionUtil.copyFields(dto, entity, 
 				ReflectionUtil.findSimilarFields(dto.getClass(), clz));
 		dto.unstansform(entity);
+		
+		if (LOGGER.isDebugEnabled()) {
+			LOGGER.debug("SimpleDTOTransformer.untransform: {} entity",
+					CommonUtil.toString(entity));
+		}
+
+		
 		return entity;
 	}
 }

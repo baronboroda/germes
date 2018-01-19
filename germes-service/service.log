@@ -1,0 +1,29 @@
+15:49:03.592 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+15:49:54.306 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+15:49:54.308 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Lviv,district=None,region=<null>,id=1] DTO object
+15:59:12.530 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+16:00:11.046 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+16:00:22.037 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+16:00:26.731 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+16:01:20.634 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Lviv,district=None,region=Lv,id=1] DTO object
+16:11:36.474 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+16:11:36.476 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Lviv,district=None,region=Lv,id=1] DTO object
+16:12:33.318 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+16:12:33.320 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Lviv,district=None,region=Lv,id=1] DTO object
+16:13:26.981 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+16:16:24.527 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+16:16:24.530 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Lviv,district=None,region=<null>,id=1] DTO object
+16:19:23.058 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+16:19:23.061 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Lviv,district=None,region=<null>,id=1] DTO object
+16:19:41.791 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+16:19:41.793 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Lviv,district=None,region=<null>,id=1] DTO object
+16:20:33.842 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+16:20:33.844 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Lviv,district=None,region=<null>,id=1] DTO object
+16:20:57.569 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+16:20:57.572 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Lviv,district=None,region=<null>,id=1] DTO object
+16:21:24.603 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+16:21:24.605 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Lviv,district=None,region=<null>,id=1] DTO object
+16:21:53.620 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+16:21:53.622 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Lviv,district=None,region=<null>,id=1] DTO object
+16:22:07.445 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+16:22:07.447 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Lviv,district=None,region=<null>,id=1] DTO object

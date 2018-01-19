@@ -33,7 +33,13 @@ public class City extends AbstractEntity {
 	 */
 	private Set<Station> stations;
 
-	public City(final String name) {
+
+	public City() {
+		
+	}
+	
+	/*Causes ArrayIndexOutOfBoundsException in SimpleDTOTransformerTest. WTF?????????*/
+	public City(String name) {
 		this.name = name;
 	}
 
