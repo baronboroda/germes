@@ -23,9 +23,11 @@ public class CityTest {
 	@Test
 	public void testAddValidStationSuccess() {
 		Station station = city.addStation(TransportType.AUTO);
+		Station station2 = city.addStation(TransportType.AVIA);
 
 		assertTrue(containsStation(city, station));
 		assertEquals(city, station.getCity());
+		assertEquals(city.getStations().size(), 2);
 	}
 
 	@Test(expected=NullPointerException.class)

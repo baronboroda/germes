@@ -55,8 +55,8 @@ public class GeographicServiceImpl implements GeographicService {
 		Stream<City> stream = cities.stream().filter(
 				(city) -> StringUtils.isEmpty(criteria.getName()) || city.getName().equals(criteria.getName()));
 		Optional<Set<Station>> stations = stream.map((city) -> city.getStations()).reduce((stations1, stations2) -> {
-			Set<Station> newStations = new HashSet<>(stations2);
-			newStations.addAll(stations1);
+			Set<Station> newStations = new HashSet<>(stations1);
+			newStations.addAll(stations2);
 			return newStations;
 		});
 		

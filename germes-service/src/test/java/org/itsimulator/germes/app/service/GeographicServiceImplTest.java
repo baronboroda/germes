@@ -87,11 +87,10 @@ public class GeographicServiceImplTest {
 	@Test
 	public void testSearchStationsByTransportTypeSuccess() {
 		City city = new City("Lviv");
-		city.setId(DEFAULT_CITY_ID);
 		city.addStation(TransportType.AUTO);
 		service.saveCity(city);
 		City city2 = new City("Kiev");
-		city.setId(2);
+		city2.setId(2);
 		city2.addStation(TransportType.AUTO);
 		service.saveCity(city2);
 		
@@ -103,7 +102,6 @@ public class GeographicServiceImplTest {
 	@Test
 	public void testSearchStationsByTransportTypeNotFound() {
 		City city = new City("Lviv");
-		city.setId(DEFAULT_CITY_ID);
 		city.addStation(TransportType.AUTO);
 		service.saveCity(city);
 		City city2 = new City("Kyiv");
