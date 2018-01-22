@@ -2,8 +2,10 @@ package org.itsimulator.germes.app.model.entity.geography;
 
 import java.util.Objects;
 
+import org.apache.commons.lang3.StringUtils;
 import org.itsimulator.germes.app.model.entity.base.AbstractEntity;
 import org.itsimulator.germes.app.model.entity.transport.TransportType;
+import org.itsimulator.germes.app.model.search.criteria.StationCriteria;
 
 /**
  * Station where passengers can get off or take specific kind
@@ -104,6 +106,21 @@ public class Station extends AbstractEntity {
 			return false;
 		if (transportType != other.transportType)
 			return false;
+		return true;
+	}
+	
+	public boolean match(final StationCriteria criteria) {
+		Objects.requireNonNull(criteria, "Station criteria is not initialized");
+		if(!StringUtils.isEmpty(criteria.getName())) {
+			if(!city.getName().equals(criteria.getName())) {
+				return false;
+			}
+		}
+		if(criteria.getTransportType() != null) {
+			if(transportType != criteria.getTransportType()) {
+				return false;
+			}
+		}
 		return true;
 	}
 	
