@@ -28,6 +28,10 @@ public class GeographicServiceImpl implements GeographicService {
 	 */
 	private final List<City> cities;
 	
+	private int counter = 0;
+	
+	private int stationCounter = 0;
+	
 	public GeographicServiceImpl() {
 		cities = new ArrayList<City>();
 	}
@@ -40,8 +44,14 @@ public class GeographicServiceImpl implements GeographicService {
 	@Override
 	public void saveCity(City city) {
 		if(!cities.contains(city)) {
+			city.setId(++counter);
 			cities.add(city);
 		}
+		city.getStations().forEach((station) -> {
+			if(station.getId() == 0) {
+				station.setId(++stationCounter);
+			}
+		});
 	}
 	
 	@Override
