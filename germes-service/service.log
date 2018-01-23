@@ -105,3 +105,8 @@
 15:50:06.714 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Lviv,district=<null>,region=<null>,id=1] DTO object
 15:50:06.730 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
 15:50:06.730 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Lviv,district=None,region=<null>,id=1] DTO object
+15:50:49.929 DEBUG - SimpleDTOTransformer.untransform: City[name=Kiev,district=<null>,region=<null>,stations=<null>,id=0,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+15:50:50.010 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Lviv,district=<null>,region=<null>,id=1] DTO object
+15:50:50.075 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Lviv,district=<null>,region=<null>,id=1] DTO object
+15:50:50.088 DEBUG - SimpleDTOTransformer.untransform: City[name=Lviv,district=None,region=Lv,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+15:50:50.089 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Lviv,district=None,region=<null>,id=1] DTO object
