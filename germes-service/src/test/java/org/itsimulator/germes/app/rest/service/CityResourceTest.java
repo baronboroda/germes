@@ -60,6 +60,7 @@ public class CityResourceTest extends JerseyTest {
 		city.setName("Kiev");
 		
 		Response response = target("cities").request().post(Entity.entity(city, MediaType.APPLICATION_JSON));
-		assertEquals(response.getStatus(), Response.Status.NO_CONTENT.getStatusCode());
+		int code = response.getStatus();
+		assertEquals(code, Response.Status.NO_CONTENT.getStatusCode());
 	}
 }
